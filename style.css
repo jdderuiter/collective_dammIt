@@ -1,0 +1,22 @@
+body{
+    overflow:hidden;
+    margin:0px; padding:0px;
+    color: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #FF530D, #E82C0C, #E80C7A, #FF0DFF);
+	background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
