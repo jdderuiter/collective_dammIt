@@ -27,7 +27,17 @@
 
     <?php
         if(!empty($_POST)){
-            echo "van: ". $_POST["item1"]." naar: ". $_POST["item2"];
+            $input1 = $_POST["item1"];
+            $input2 = $_POST["item2"];
+
+            $sql = "INSERT INTO dammit (input1, input2) VALUES('$input1','$input2')";
+            $result = $conn->query($sql);
+
+            if (!$result){
+                echo "Error";
+            }else{
+                echo "inserted!";
+            }
         }
         
     ?>
