@@ -16,9 +16,15 @@
             <div class="custom-select">
                 <label for="item1">Vanaf:</label>
                 <select name="item1">
-                    <option value="a1">A1</option>
-                    <option value="a2">A2</option>
-                    <option value="a3">A3</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <option value="G">G</option>
+                    <option value="H">H</option>
+
                 </select>
                 <label for="item2">Naar:</label>
                 <select name="item2">
