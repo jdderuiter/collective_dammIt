@@ -7,11 +7,14 @@ body{
     background: linear-gradient(-45deg, #FF530D, #E82C0C, #E80C7A, #FF0DFF);
 	background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 input[type="submit"] {
   width: 100px;
   height: 50px;
   border: 2px solid #efefef;
+  background-color: transparent;
+  color:#efefef;
   text-transform: uppercase;
 }
 
@@ -26,7 +29,7 @@ select {
 
 .custom-select {
   position:relative;
-  
+  top: 50vh;
   margin:0 auto;
   text-align: center;
 }
