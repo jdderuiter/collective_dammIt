@@ -11,9 +11,7 @@
     <script src="main.js"></script>
     <title>Collective Dammen</title>
 </head>
-<body>
-
-    
+<body class="bg">
         <form action="?" method="POST">
             <div class="custom-select">
                 <label for="item1">Vanaf:</label>
