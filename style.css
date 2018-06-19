@@ -8,6 +8,29 @@ body{
 	background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
 }
+input[type="submit"] {
+  width: 100px;
+  height: 50px;
+  border: 2px solid #efefef;
+  text-transform: uppercase;
+}
+
+select {
+  width:100px;
+  background-color: #313131;
+  border-radius: 0;
+  color:#fff;
+  height:50px;
+  border:0;
+}
+
+.custom-select {
+  position:relative;
+  
+  margin:0 auto;
+  text-align: center;
+}
+
 
 @keyframes Gradient {
 	0% {
@@ -20,3 +43,4 @@ body{
 		background-position: 0% 50%
 	}
 }
+
