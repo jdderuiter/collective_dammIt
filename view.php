@@ -14,7 +14,12 @@ if ($result->num_rows >0) {
     arsort($vals);
 } else{
     echo "0 results";
+    $vals = [];
+}
 
+if($_GET['reset']){
+    $query = "DELETE FROM dammit";
+    $result = $conn->query($query);
 }
 ?>
 <!DOCTYPE html>
@@ -27,6 +32,8 @@ if ($result->num_rows >0) {
     <title>Document</title>
 </head>
 <body>
+    <a href="?reset=true">Reset</a>
+    <hr>
     <? foreach($vals as $key => $val): ?>
     <h3><?= $key ?></h3>
     <div class="meter">
