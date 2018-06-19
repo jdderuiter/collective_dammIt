@@ -16,10 +16,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="124">
+              <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
-                <marker date="1529416287689" expanded="true" signature="2877:2938" ph="INSERT INTO dammit... " />
+                <marker date="1529416470461" expanded="true" signature="2865:2926" ph="INSERT INTO dammit... " />
               </folding>
             </state>
           </provider>
@@ -51,7 +51,12 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1529414076729" expanded="true" signature="47:80" ph="SELECT input... dammit" />
+                <marker date="1529416336509" expanded="true" signature="47:80" ph="SELECT input... dammit" />
+                <marker date="1529416336509" expanded="true" signature="156:337" ph="..." />
+                <marker date="1529416336509" expanded="true" signature="344:367" ph="..." />
+                <marker date="1529416336509" expanded="true" signature="813:994" ph="..." />
+                <marker date="1529416336509" expanded="true" signature="813:1002" ph="..." />
+                <marker date="1529416336509" expanded="true" signature="821:985" ph="..." />
               </folding>
             </state>
           </provider>
@@ -138,12 +143,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529413443813</updated>
-      <workItem from="1529413445129" duration="2785000" />
+      <workItem from="1529413445129" duration="2970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2785000" />
+    <option name="totallyTimeSpent" value="2970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
@@ -184,7 +189,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1529414076729" expanded="true" signature="47:80" ph="SELECT input... dammit" />
+            <marker date="1529416336509" expanded="true" signature="47:80" ph="SELECT input... dammit" />
+            <marker date="1529416336509" expanded="true" signature="156:337" ph="..." />
+            <marker date="1529416336509" expanded="true" signature="344:367" ph="..." />
+            <marker date="1529416336509" expanded="true" signature="813:994" ph="..." />
+            <marker date="1529416336509" expanded="true" signature="813:1002" ph="..." />
+            <marker date="1529416336509" expanded="true" signature="821:985" ph="..." />
           </folding>
         </state>
       </provider>
@@ -207,10 +217,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        <state relative-caret-position="124">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
-            <marker date="1529416287689" expanded="true" signature="2877:2938" ph="INSERT INTO dammit... " />
+            <marker date="1529416470461" expanded="true" signature="2865:2926" ph="INSERT INTO dammit... " />
           </folding>
         </state>
       </provider>

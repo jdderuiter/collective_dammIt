@@ -14,7 +14,7 @@
 <body class="bg">
         <form action="?" method="POST">
             <div class="custom-select">
-                <label for="item1">Vanaf:</label>
+                <label for="item1">Van:</label>
                 <select name="item1">
                     <option value="A">A</option>
                     <option value="B">B</option>
@@ -25,7 +25,7 @@
                     <option value="G">G</option>
                     <option value="H">H</option>
                 </select>
-                <label for="item2">Naar:</label>
+                <label for="item2"></label>
                 <select name="item2">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -47,7 +47,7 @@
                     <option value="G">G</option>
                     <option value="H">H</option>
                 </select>
-                <label for="item4">Naar:</label>
+                <label for="item4"></label>
                 <select name="item4">
                     <option value="1">1</option>
                     <option value="2">2</option>
