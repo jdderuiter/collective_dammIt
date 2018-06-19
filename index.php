@@ -12,6 +12,8 @@
     <title>Collective Dammen</title>
 </head>
 <body class="bg">
+    <h1>Collective Dammit!</h1>
+    <div class="container">
         <form action="?" method="POST">
             <div class="custom-select">
                 <label for="item1">Van:</label>
@@ -36,6 +38,8 @@
                     <option value="7">7</option>
                     <option value="8">8</option>
                 </select>
+            </div>
+            <div class="custom-select">
                 <label for="item3">Naar:</label>
                 <select name="item3">
                     <option value="A">A</option>
@@ -58,9 +62,12 @@
                     <option value="7">7</option>
                     <option value="8">8</option>
                 </select>
+            </div>
+            <div class="custom-select">
                 <input type="submit" value="Kies zet!">
             </div>
         </form>
+    </div>
    
 
     <?php
