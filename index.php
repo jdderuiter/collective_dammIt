@@ -22,7 +22,7 @@
                     <option value="a2">A2</option>
                     <option value="a3">A3</option>
                 </select>
-                <label for="item2">Tot:</label>
+                <label for="item2">Naar:</label>
                 <select name="item2">
                     <option value="a1">A1</option>
                     <option value="a2">A2</option>

@@ -16,6 +16,7 @@ input[type="submit"] {
   background-color: transparent;
   color:#efefef;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 select {
