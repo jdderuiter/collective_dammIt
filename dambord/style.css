@@ -121,27 +121,30 @@ div.stats {
 div#background {
     position: absolute;
     top: calc(90%);
-    left: calc(50% - 40vmin);
+    left: calc(50% - 36vmin);
     width: 80vmin;
     height: 10vmin;
     border-radius: 5px;
     background-color: #3A3042;
     overflow: hidden; 
-    word-spacing: 63px;
+    word-spacing: 56px;
     font-size: 20px;
     color: white;
   }
 
 div#background2 {
     position: absolute;
-    top: calc(50% - 45vmin);
+    top: calc(13vmin);
     left: calc(91%);
     width: 10vmin;
-    height: 15vmin;
+    height: 150vmin;
     background-color: #3A3042;
     overflow: hidden; 
-    font-size: 35px;
+    font-size: 20px;
     color: white;
+    word-spacing: 21px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
   }
 
 
