@@ -24,7 +24,6 @@
                     <option value="F">F</option>
                     <option value="G">G</option>
                     <option value="H">H</option>
-
                 </select>
                 <label for="item2">Naar:</label>
                 <select name="item2">
