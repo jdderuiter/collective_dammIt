@@ -5,12 +5,27 @@ body.bg{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(-45deg, #FF530D, #E82C0C, #E80C7A, #FF0DFF);
-	background-size: 400% 400%;
+		background-size: 400% 400%;
     animation: Gradient 15s ease infinite;
-    font-family: Tahoma, Geneva, sans-serif;
+		font-family: Tahoma, Geneva, sans-serif;
+		text-align: center;
 }
+
+h1{
+	margin: 20px auto;
+}
+
+.container{
+	width: 90vw;
+	margin: auto;
+}
+
+label{
+	display: block;
+}
+
 input[type="submit"] {
-  width: 100px;
+  width: 100%;
   height: 50px;
   border: 2px solid #efefef;
   background-color: transparent;
@@ -20,18 +35,21 @@ input[type="submit"] {
 }
 
 select {
-  width:100px;
-  background-color: #313131;
+  width:100%;
+	background-color: #313131;
+	text-align: center;
   border-radius: 0;
   color:#fff;
   height:50px;
-  border:0;
+	border:0;
+	margin: 10px 0;
+	padding-left: 15px;
 }
 
 .custom-select {
   position:relative;
-  top: 50vh;
-  margin:0 auto;
+	margin:0 auto;
+	padding: 30px;
   text-align: center;
 }
 

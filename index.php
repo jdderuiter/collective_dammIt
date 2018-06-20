@@ -12,9 +12,11 @@
     <title>Collective Dammen</title>
 </head>
 <body class="bg">
+    <h1>Collective Dammit!</h1>
+    <div class="container">
         <form action="?" method="POST">
             <div class="custom-select">
-                <label for="item1">Vanaf:</label>
+                <label for="item1">Van:</label>
                 <select name="item1">
                     <option value="A">A</option>
                     <option value="B">B</option>
@@ -25,23 +27,61 @@
                     <option value="G">G</option>
                     <option value="H">H</option>
                 </select>
-                <label for="item2">Naar:</label>
+                <label for="item2"></label>
                 <select name="item2">
-                    <option value="a1">A1</option>
-                    <option value="a2">A2</option>
-                    <option value="a3">A3</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
                 </select>
-                <input type="submit" value="Speel zet!">
+            </div>
+            <div class="custom-select">
+                <label for="item3">Naar:</label>
+                <select name="item3">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                    <option value="F">F</option>
+                    <option value="G">G</option>
+                    <option value="H">H</option>
+                </select>
+                <label for="item4"></label>
+                <select name="item4">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+            </div>
+            <div class="custom-select">
+                <input type="submit" value="Kies zet!">
             </div>
         </form>
+    </div>
    
 
     <?php
         if(!empty($_POST)){
             $input1 = $_POST["item1"];
             $input2 = $_POST["item2"];
+            $input3 = $_POST["item3"];
+            $input4 = $_POST["item4"];
 
-            $sql = "INSERT INTO dammit (input1, input2) VALUES('$input1','$input2')";
+            $move1 = $input1.$input2;
+            $move2 = $input3.$input4;
+
+
+            $sql = "INSERT INTO dammit (input1, input2) VALUES('$move1','$move2')";
             $result = $conn->query($sql);
 
             if (!$result){
